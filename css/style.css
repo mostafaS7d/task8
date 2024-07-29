@@ -1,0 +1,283 @@
+.container{
+   width: 100%;
+   height: 2000px;
+   background: black;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.container .nav .logo{
+    padding: 5px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.container .nav .logo .home{
+    color: white;
+}
+.container .nav .logo::first-letter{
+    color: white;
+}
+.container .nav ul li{
+    /* font-size: 25px; */
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 30px;
+    list-style: none;
+   
+}
+.container .nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .5s;
+
+}
+.container .nav ul li a:hover{
+    color: wheat;
+    font-size:30px ;
+    border: 5px bold wheat;
+    border-radius: 7px;
+}
+.content{
+    background: #000;
+    /* background-image: url(Background.png); */
+    background-size:contain ;
+    background-repeat:none;
+    
+    width: 100%;
+    height: 1500px;
+    padding: 50px 10px 10px 50px;
+
+}
+
+.content span{
+    color: yellow;
+    text-transform: uppercase;
+    
+    position: 50px;
+    display: inline-block;
+    font-size: 30px;
+
+    
+}
+.content h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+
+}
+.content .p1{
+    color: white;
+    animation-name: paragraph;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;    
+    letter-spacing: 2px;
+     
+    
+}
+
+@keyframes paragraph {
+    0%{
+        
+        width: 0%;
+    }
+    50%{
+        
+        width: 50%;
+        opacity: .5;
+    }
+    100%{
+        width: 100%;
+        opacity: 1;
+    }
+    
+}
+  .content .p1:hover{
+   
+
+    
+    opacity: 1; */
+     
+    
+    
+} 
+.content p{
+    letter-spacing: 2px;
+    color : white;
+}
+.content button{
+    padding: 10px 5px 20px 10px;
+    color: #000;
+    background: yellow;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0  0 ;
+    text-align: center;
+    border: none; 
+    transition: .5s;
+
+
+}
+.content button:hover{
+    background: #ffffff00;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    left: 50px;
+}
+.content .imgs{
+    width: 100%;
+    height: 50px;
+    display: flex;
+} 
+ .content .imgs img{
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px 5px 70px;
+    margin: 10px;   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .25s;
+    
+   
+}
+.content .imgs img:hover{
+    width: 80px;
+    height: 80px;
+}
+.content .imgs p{
+    padding: 1px 70px 10px 70px;
+    margin: 2px;   
+}
+.product{
+    width: 90%;
+    
+    display: flex;
+    gap: 40px;
+   
+    
+
+}
+.product img{
+    width: 300px;
+    height: 300px; 
+    transition: .5s;
+    
+}
+.product img:hover{
+    width: 350px;
+    height: 350px;
+}
+.product .par .spa{
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    
+    padding: 10px 0 5px 10px;
+    word-spacing: 3px;
+
+}
+.product .par .hea{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 0 10px 0;
+
+}
+
+.view{
+    position: absolute;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+.view img{
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    margin-left: 30px;
+    transition: .5s;
+    position: relative;
+}
+.view img:hover{
+    width: 400px;
+    height: 420px;
+}
+.view .data {
+    padding: 0 10px 0 20px;
+    color: white;
+    position: relative;
+    bottom: 120px;
+    left: 50px;
+   
+    
+    
+   
+    
+}
+#bnt{
+    /* background: blue; */
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+    position:relative;
+    top: 500px;
+    left: 500px;
+}
+#bnt:hover{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
